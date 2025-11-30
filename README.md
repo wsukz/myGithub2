@@ -15,7 +15,6 @@ In **Problem 2**, the goal is to **refactor and upgrade the splash system** usin
 
 This is the first task where students transition from **"single C file"** to a **multi-file C project**.
 
----
 
 ## 📘 Background Story
 After Arthur successfully presented the initial Magrathea splash screen prototype (Problem 1), the CTO encouraged him to restructure the prototype into a **modular codebase** so the team can expand the project quickly.
@@ -30,7 +29,6 @@ Arthur spent the morning rewriting the prototype following real software enginee
 
 This assignment simulates what Arthur built — a clearer, more maintainable Magrathea splash component.
 
----
 
 ## 🧩 Problem Description
 
@@ -86,7 +84,6 @@ fileio.c / fileio.h → optional text loading
 - Store splash text in `/assets/splash.txt` and load via `fileio.c`  
 - Add `sleep(1)` before clearing the screen
 
----
 
 ## 📁 Project Structure
 
@@ -112,7 +109,6 @@ Course-1-Problem-2-Splash/
     └── instructor_expected_output.txt
 ```
 
----
 
 ## 🧪 Grading Checklist
 
@@ -125,6 +121,5 @@ Course-1-Problem-2-Splash/
 | Accurate formatted splash screen | 20 |
 | BONUS: triangles, file loading, timing | 20 |
 
----
 
-# 🚀 **Good Luck! Continue building the Magrathea prototype!**
+# **Good Luck! Continue building the Magrathea prototype!**
